@@ -74,7 +74,6 @@ int consider_precision_d(parsing pars, int i, char sign, char *str,
 void format_d(parsing pars, int len, char *str, char sign, int *len_buf);
 void f_func(parsing pars, int *len_buf, char *str, long double number,
             int from_g_grid);
-void inf_or_nan(long double number, char *str);
 char sign_func_subst(long double *number, int *plus, int *space);
 int whole_part(long double number, int *buff);
 void fraction_part(int shortage, long double number, int *buff, int whole);
